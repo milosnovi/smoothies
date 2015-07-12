@@ -7,7 +7,7 @@ module.exports = function (grunt) {
     var BasePath = './';
 
     var TypscriptSourceDirs = [
-        BasePath + "app/**/*.ts"
+        BasePath + "app/js/**/*.ts"
     ];
 
 
@@ -100,7 +100,6 @@ module.exports = function (grunt) {
             scripts: {
                 files: TypscriptSourceDirs,
                 options: {
-                // tasks: ['ts:build', 'jshint', 'ngdocs'],
                 tasks: ['ts:build'],
                     interrupt: true
                 }

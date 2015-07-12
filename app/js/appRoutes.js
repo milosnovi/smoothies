@@ -1,15 +1,14 @@
 /// <reference path="../Libraries/Typescript/angularjs/angular.d.ts" />
 /// <reference path="../Libraries/Typescript/angularjs/angular-route.d.ts" />
-var smoothies;
-(function (smoothies) {
+var Smoothies;
+(function (Smoothies) {
     var Routes = (function () {
         function Routes() {
         }
         Routes.configureRoutes = function ($routeProvider) {
             $routeProvider.when("/home", {
-                controller: "angularWithTS.controllers.tsDemoController",
-                templateUrl: "/app/views/playlist.html",
-                controllerAs: "playList"
+                controller: "Smoothies.Controllers.SmoothiesController",
+                templateUrl: "/app/Views/smoothies.html"
             });
             $routeProvider.otherwise({
                 redirectTo: "/home"
@@ -18,5 +17,5 @@ var smoothies;
         Routes.$inject = ["$routeProvider"];
         return Routes;
     })();
-    smoothies.Routes = Routes;
-})(smoothies || (smoothies = {}));
+    Smoothies.Routes = Routes;
+})(Smoothies || (Smoothies = {}));

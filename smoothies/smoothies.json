@@ -1,0 +1,20 @@
+[
+    {
+        "id": "oatmeal_raisin_cookie_protein",
+        "name": "Oatmeal Raisin “Cookie” Protein Smoothie",
+        "imageUrl": "img/oatmeal_raisin_cookie_protein.jpg",
+        "snippet": "What happens when you strip an oatmeal cookie of all that added sugar and unnecessary butter? You get something that’s actually pretty nutritious. We took..."
+    },
+    {
+        "id": "key_lime_pie_shake",
+        "name": "Key Lime Pie Protein Shake",
+        "imageUrl": "img/key_lime_pie_shake.jpg",
+        "snippet": "Our refreshing key lime pie protein shake is guilt-free, bursting with vitamin C, and easy to make. Crowned with creamy yogurt and crunchy graham cracker crumbs, this sweet yet tart drink will be..."
+    },
+    {
+        "id": "pumpkine_pie_protein",
+        "name": "Pumpkin Pie Protein Smoothie",
+        "imageUrl": "img/pumpkin_pie_protein.jpg",
+        "snippet": "Pumpkin pie gets a bad rap because of calorie-laden cream and sugar that’s added to it. But you can still get that sweet, whipped taste without falling off the wagon. Pumpkin is high in fiber, antioxidants and immunity-boosting nutrients..."
+    }
+]
