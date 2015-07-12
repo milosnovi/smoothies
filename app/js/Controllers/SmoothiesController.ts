@@ -1,4 +1,5 @@
 module Smoothies.Controllers {
+
   export class SmoothiesController {
 
       constructor(
@@ -6,7 +7,7 @@ module Smoothies.Controllers {
         private $http:angular.IHttpService,
         private $routeParams
       ){
-        $http.get('smoothies/' + $routeParams.smoothies_id + '.json').success(function(data) {
+        $http.get('smoothies/' + $routeParams.smoothies_id + '.json').success(function(data:Smoothies.Interfaces.SmootyInterface) {
           $scope.data = data;
         });
       }
